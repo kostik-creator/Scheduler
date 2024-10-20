@@ -1,7 +1,7 @@
 import pytest
 from unittest.mock import AsyncMock, patch
 
-from bot.handlers.user_handlers import handle_delete_reminder, get_all_reminders, delete_reminder
+from bot.handlers.user_handlers import handle_delete_reminder
 
 @pytest.mark.asyncio
 async def test_handle_delete_reminder() -> None:

@@ -1,6 +1,6 @@
 import pytest
-from unittest.mock import AsyncMock, patch
 from datetime import datetime, timedelta
+from unittest.mock import AsyncMock, patch
 
 from bot.handlers.user_handlers import get_reminder_text
 
